@@ -1,8 +1,12 @@
-
 #include <iostream>
 using namespace std;
 
 int main() {
-    cout << "Welcome to StudentRecord!" << endl;
+    string name;
+
+    cout << "Enter student name: ";
+    cin >> name;
+
+    cout << "Welcome, " << name << "!" << endl;
     return 0;
 }
