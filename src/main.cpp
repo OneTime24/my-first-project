@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -7,8 +8,12 @@ int main() {
     cout << "Enter student name: ";
     cin >> name;
 
-    cout << "Welcome, " << name << "!" << endl;
 
+    cout<<"Enter student addres:: ";
+    string str;
+    getline(cin,str);
+    cout << "Welcome, " << name << "!" << endl;
+    cout<<" Address is: "<<str<<endl;
     //testing PR
 
     return 0;
