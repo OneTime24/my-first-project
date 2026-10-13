@@ -6,11 +6,10 @@ int main() {
 
     cout << "Enter student name: ";
     cin >> name;
-    
-    int age;
-    cout<<"Enter student age: ";
 
+    cout << "Welcome, " << name << "!" << endl;
 
-    cout << "Welcome, " << name << "!" << endl<<"Age, "<<age<<endl;
+    //testing PR
+
     return 0;
 }
